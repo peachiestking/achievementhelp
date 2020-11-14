@@ -9,6 +9,13 @@ default persistent.achieve_3 = False #What does this button do?
 
 label start:
 
+    scene white
+#This is covered in the Wiki on my GitHub, take a look there to find out what it is!
+    if persistent.achieve_2 == True:
+        jump ending_1
+    else:
+        pass
+
     $ renpy.notify("Achievement unlocked: Oh, look at that...")
     $ persistent.achieve_1 = True
 
@@ -24,6 +31,8 @@ label start:
     "By the end of the game, all 3 achievements will be unlocked."
 
     "Up next is a menu. Either choice will reward you with an achievement!"
+
+    $ renpy.notify("Hello, world!")
 
     menu:
         "Pick me!":
@@ -71,6 +80,22 @@ label start:
 
     "You will now be sent to the Main Menu and be granted the final achievement. I hope this helped!"
     $ persistent.achieve_2 = True
+
+    return
+
+label ending_1:
+
+    "Oh?"
+
+    "If you made it here, cool!"
+
+    "It means you have got all 3 achievements, awesome!"
+
+    "If you want to see the original tutorial, you can either reset your progress
+        in the preferences screen, delete the code that sends you here or just
+        view this in your text editor!"
+
+    "Happy coding!"
 
     return
 
