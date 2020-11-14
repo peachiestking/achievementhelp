@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "1.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -36,17 +36,17 @@ Please know this {b}isn't{/b} for Steam support.
 
 You can look in the files and whatever, copy and paste, it doesn't matter.
 
-Code should always be free and open source to whoever needs it.
+{b}Code should always be free and open source to whoever needs it or wants
+to learn from it.{/b}
 
-This code {i}might{/i} be on GitHub if it's requested.
+The code is on {a=https://github.com/peachiestking/achievementhelp}GitHub!{/a}
 
 Currently in this version, there's a demonstration of 3 achievements, how to set them
 up, how to give them to the player, how to view them in a custom screen and how to
 reset progress.
 
-Try not to view the Achievements screen on the Main Menu as you can't close
-out of it. In the next update I'll try and fix it and show how I made the Reset
-Progress button.
+Update! I fixed the bug in the Main Menu. Press ESC anywhere when the menu is open to
+close it!
 
 Cheers!
 Peachy.
