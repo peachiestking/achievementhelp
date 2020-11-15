@@ -10,8 +10,11 @@ This is NOT for Steam.
 Version 1.1:
 
 -Small bug fixes.
+
 -Changed code that didn't make sense.
+
 -Added more content to be in-line with the Wiki.
+
 -Started on the Wiki.
 
 PEACHY
