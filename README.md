@@ -18,3 +18,8 @@ Version 1.1:
 -Started on the Wiki.
 
 PEACHY
+
+
+Dark Mode Launcher:
+
+Check the wiki page for it towork and make sense :)
